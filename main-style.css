@@ -104,6 +104,27 @@ header {
   text-decoration: none;
 }
 
+/* #2.3 Header Contact Link */
+.header-section__contact {
+  background: var(--secondary-palette-color);
+  width: 8vw;
+  max-width: 200px;
+  height: 13vh;
+  min-height: 35px;
+  max-height: 45px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-section__contact-link {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* 
 /* For Desktop View 
 @media screen and (min-width: 1024px) {
