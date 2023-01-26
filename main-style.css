@@ -49,6 +49,7 @@ html {
 
 /* #2 Header */
 header {
+  background: var(--main-palette-color);
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -58,11 +59,12 @@ header {
   height: 10vh;
   min-height: 70px;
   max-height: 100px;
+  font-size: 18px;
 }
 
 .header-section {
   background: #fff;
-  width: 100%;
+  width: 85% !important;
   height: 10vh;
   min-height: 70px;
   max-height: 100px;
@@ -72,8 +74,10 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 2em 0 2em;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  margin: 1em;
+  border-radius: 50px;
+  position: fixed;
+  top: 1em;
 }
 
 /* #2.1 Header Logo */
@@ -100,26 +104,6 @@ header {
   text-decoration: none;
 }
 
-/* #2.3 Header Contact Link */
-.header-section__contact {
-  background: blue;
-  width: 8vw;
-  max-width: 200px;
-  height: 13vh;
-  min-height: 35px;
-  max-height: 45px;
-  border-radius: 25px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.header-section__contact-link {
-  color: #fff;
-  text-decoration: none;
-}
 /* 
 /* For Desktop View 
 @media screen and (min-width: 1024px) {
