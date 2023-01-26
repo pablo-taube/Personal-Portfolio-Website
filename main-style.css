@@ -18,8 +18,32 @@ body {
 
 /* #1.1 Variables */
 html {
-  --main-background-color: ;
   --main-font-color: #000;
+  --main-palette-color: #f3f2f0 ;
+  /*--main-palette-color: #f8ede3;*/
+  --secondary-palette-color: /*#F5F5F5*/ #F67E7D;
+  --btn-color: /*#6369D1*/ #F67E7D;
+}
+
+/* #1.2 Blocks of Code */
+.large-container-main-palette-color {
+  width: 100vw;
+  height: 75vh;
+  background: var(--main-palette-color);
+}
+
+.large-container-secondary-palette-color {
+  width: 100vw;
+  height: 75vh;
+  background: var(--secondary-palette-color);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 /* #2 Header */
